@@ -35,8 +35,5 @@ public class NumberGame {
                 System.out.println("System input="+sysInput);
             }
         }
-
-
     }
-
 }
