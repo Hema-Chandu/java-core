@@ -5,7 +5,7 @@ public class StringExample {
         String name ="abc";
         String name2 = new String("abc");
         String name4 = new String("abc");
-        String name3="abc";
+        String name3="abfgghc";
         System.out.println(name==name2);
         System.out.println(name4==name2);
         System.out.println(name==name3);
