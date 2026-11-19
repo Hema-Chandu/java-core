@@ -19,5 +19,4 @@ public class throwandthrowskeyword {
             System.out.println(e.getMessage());
         }
     }
-
 }

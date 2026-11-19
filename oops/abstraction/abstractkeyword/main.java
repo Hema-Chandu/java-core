@@ -16,7 +16,6 @@ public class main {
         Employee emp = new a();
         emp.disp();
         emp.show();
-        
     }
 
 

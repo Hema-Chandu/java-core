@@ -14,5 +14,4 @@ public class main {
         }
         sv.getbal();
     }
-
 }

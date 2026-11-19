@@ -18,6 +18,4 @@ public class main {
         b.show();
         System.out.println(a.q);
     }
-
-
 }

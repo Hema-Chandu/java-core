@@ -11,7 +11,6 @@ public class objectArrays {
             }
             System.out.println("Sum of array is " + sum);
         }
-        System.out.println("Sum of both 2darray is " + sum);
     }
     public static void sumArray(){
         int arr[]={12,23,456,67,78};

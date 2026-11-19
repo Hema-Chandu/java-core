@@ -1,6 +1,9 @@
 package oops.encapsulation;
 
+import java.util.Scanner;
+
 public class bank {
+    Scanner sc=new Scanner(System.in);
     private int balance = 2000;
     public int getbalance(){
         return balance;
