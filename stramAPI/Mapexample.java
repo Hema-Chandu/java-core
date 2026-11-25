@@ -11,14 +11,23 @@ public class Mapexample {
         // anno
         Function<Integer,Integer> function =new Function<>() {
             public Integer apply(Integer a){
-                return a+2;
+                return a*a;
 
             }
         };
         // Lambda
-        Function<Integer,Integer> function2 =a-> a+2;
+        Function<Integer,Integer> function2 =a-> a*a;
         //square.map(a-> a+2).forEach(n->System.out.println(n));
         square.map(function2).forEach(n->System.out.println(n));
+
+
+
+
+
+
+
+
+
 
     }
 
