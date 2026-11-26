@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 public class reduceExample {
     public static void main(String[] args) {
-        List<Integer> list = Arrays.asList(2,3,535,64,66,6,65);
+        List<Integer> list = Arrays.asList(2,3,4,5);
         Stream<Integer> stream = list.stream();
         // BiFunction<Integer,Integer,Integer> bifunction = new BiFunction<Integer,Integer,Integer>() {
         //     public Integer apply(Integer a, Integer b){
@@ -35,5 +35,8 @@ public class reduceExample {
         list.forEach(consumer);
         Consumer<Integer> consumer1 = a->System.out.println(a);
         list.forEach(consumer1);
+
+        int sum2 = list.stream().filter(n->n%2==0).map(n->n+2).reduce(0,(a,b)->a+b);
+        System.out.println(sum2);
     }
 }
